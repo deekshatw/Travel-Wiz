@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Travel Wiz</string>
+    <string name="myTravel" />
+    <string name="from">From</string>
+    <string name="deeksha_agarwal">Deeksha Agarwal</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="congrats">Successfully Logged In</string>
+    <string name="congrats2">Congratulations! Your account has been
+        succesfully logged in.</string>
+    <string name="sign_up">Sign Up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hotels">Find deals on hotels,
+        homes and much more…</string>
+    <string name="logout3">We\'re sorry to inform you that your
+        account has been locked out.</string>
+    <string name="logged_out">Oops! Logged Out!</string>
+    <string name="darjeeling">Darjeeling</string>
+    <string name="karnataka">Karnataka</string>
+    <string name="kashmir">Kashmir</string>
+    <string name="kerala">Kerala</string>
+    <string name="rajasthan">Rajasthan</string>
+    <string name="jaipur">Jaipur</string>
+</resources>

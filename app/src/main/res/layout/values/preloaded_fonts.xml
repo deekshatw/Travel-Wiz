@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/akaya_telivigala</item>
+        <item>@font/amarante</item>
+        <item>@font/andika_new_basic</item>
+        <item>@font/baloo_bhai_2</item>
+        <item>@font/baloo_bhaina_2</item>
+        <item>@font/baloo_da</item>
+        <item>@font/balsamiq_sans</item>
+        <item>@font/lato</item>
+        <item>@font/lato_black</item>
+        <item>@font/roboto_bold</item>
+    </array>
+</resources>
