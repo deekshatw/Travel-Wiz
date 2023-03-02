@@ -29,6 +29,7 @@ class HomeFragment : Fragment() {
     private var param2: String? = null
 
 
+<<<<<<< HEAD
     private lateinit var adapter: MyAdapter
     private lateinit var recyclerView: RecyclerView
     private lateinit var dataArrayList: ArrayList<TravelData>
@@ -38,6 +39,8 @@ class HomeFragment : Fragment() {
     lateinit var travelData : Array<String>
 
 
+=======
+>>>>>>> 53b4940 (Made some changes)
     /**
      * A simple [Fragment] subclass.
      * Use the [HomeFragment.newInstance] factory method to
@@ -48,8 +51,21 @@ class HomeFragment : Fragment() {
         private var param1: String? = null
         private var param2: String? = null
 
+<<<<<<< HEAD
         private lateinit var hotelsCard : CardView
         private lateinit var exploreCard : CardView
+=======
+        private lateinit var adapter: MyAdapter
+        private lateinit var recyclerView: RecyclerView
+        private lateinit var dataArrayList: ArrayList<TravelData>
+
+        lateinit var imageId: Array<Int>
+        lateinit var titleId: Array<String>
+        lateinit var travelData: Array<String>
+
+        private lateinit var hotelsCard: CardView
+        private lateinit var exploreCard: CardView
+>>>>>>> 53b4940 (Made some changes)
 
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
@@ -69,7 +85,10 @@ class HomeFragment : Fragment() {
         }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 53b4940 (Made some changes)
         companion object {
             /**
              * Use this factory method to create a new instance of
@@ -112,12 +131,18 @@ class HomeFragment : Fragment() {
             recyclerView.adapter = adapter
 
 
+<<<<<<< HEAD
 
 
 
         }
 
         private fun dataInitialize(){
+=======
+        }
+
+        private fun dataInitialize() {
+>>>>>>> 53b4940 (Made some changes)
 
             dataArrayList = arrayListOf<TravelData>()
             imageId = arrayOf(
@@ -137,16 +162,32 @@ class HomeFragment : Fragment() {
                 getString(R.string.rajasthan),
                 getString(R.string.kashmir)
             )
+<<<<<<< HEAD
             for (i in imageId.indices){
+=======
+            for (i in imageId.indices) {
+>>>>>>> 53b4940 (Made some changes)
                 val data = TravelData(imageId[i], titleId[i])
                 dataArrayList.add(data)
             }
 
         }
 
+<<<<<<< HEAD
         private fun replaceFragment(fragment: Fragment){
             val fragmentManager : FragmentManager =(activity as FragmentActivity). supportFragmentManager
             val fragmentTransaction : FragmentTransaction = fragmentManager.beginTransaction()
             fragmentTransaction.replace(R.id.frameLayout, fragment)
             fragmentTransaction.commit()
         }
+=======
+        private fun replaceFragment(fragment: Fragment) {
+            val fragmentManager: FragmentManager =
+                (activity as FragmentActivity).supportFragmentManager
+            val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
+            fragmentTransaction.replace(R.id.frameLayout, fragment)
+            fragmentTransaction.commit()
+        }
+    }
+}
+>>>>>>> 53b4940 (Made some changes)

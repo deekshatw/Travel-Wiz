@@ -1,6 +1,10 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+<<<<<<< HEAD
+=======
+    id 'com.google.gms.google-services'
+>>>>>>> 53b4940 (Made some changes)
 }
 
 android {
@@ -13,7 +17,10 @@ android {
         targetSdk 33
         versionCode 1
         versionName "1.0"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 53b4940 (Made some changes)
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -40,6 +47,10 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.google.firebase:firebase-auth-ktx:21.1.0'
     implementation 'com.google.android.gms:play-services-auth:20.4.1'
+<<<<<<< HEAD
+=======
+    implementation 'com.google.firebase:firebase-auth:21.0.3'
+>>>>>>> 53b4940 (Made some changes)
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'

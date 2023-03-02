@@ -39,7 +39,10 @@
                 android:layout_gravity="center"
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
+<<<<<<< HEAD
                 android:fontFamily="@font/baloo_bhaina_2"
+=======
+>>>>>>> 53b4940 (Made some changes)
                 android:text="Kerala"
                 android:textSize="18sp"
                 android:textStyle="bold" />

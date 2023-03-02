@@ -59,7 +59,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
+<<<<<<< HEAD
                 android:fontFamily="@font/lato"
+=======
+>>>>>>> 53b4940 (Made some changes)
                 android:gravity="left"
                 android:text="@string/hotels"
                 android:textSize="25sp"

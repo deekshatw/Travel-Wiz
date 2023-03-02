@@ -138,7 +138,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
+<<<<<<< HEAD
                 android:fontFamily="@font/lato_black"
+=======
+>>>>>>> 53b4940 (Made some changes)
                 android:text="Choose your destination!"
                 android:textSize="30sp"
                 app:layout_constraintEnd_toEndOf="@+id/cardView"
@@ -191,7 +194,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
+<<<<<<< HEAD
                 android:fontFamily="@font/lato"
+=======
+>>>>>>> 53b4940 (Made some changes)
                 android:text="Must visit places"
                 android:textSize="20sp"
                 android:textStyle="bold"

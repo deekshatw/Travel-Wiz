@@ -40,9 +40,15 @@ class MainActivity : AppCompatActivity() {
 
 //        Google Sign in
         auth = FirebaseAuth.getInstance()
+<<<<<<< HEAD
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id))
             .requestEmail().build()
+=======
+       val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+           .requestIdToken(getString(R.string.default_web_client_id))
+           .requestEmail().build()
+>>>>>>> 53b4940 (Made some changes)
 
         googleSignInClient = GoogleSignIn.getClient(this, gso)
         findViewById<Button>(R.id.gSignInBtn).setOnClickListener {
@@ -129,9 +135,13 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             } else {
                 Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
+<<<<<<< HEAD
 
             }
 
+=======
+            }
+>>>>>>> 53b4940 (Made some changes)
         }
     }
 

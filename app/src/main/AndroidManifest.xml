@@ -8,7 +8,11 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
+<<<<<<< HEAD
         android:icon="@mipmap/ic_launcher"
+=======
+        android:icon="@drawable/mytravellogo"
+>>>>>>> 53b4940 (Made some changes)
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyTravels"
@@ -40,7 +44,11 @@
 
         <meta-data
             android:name="preloaded_fonts"
+<<<<<<< HEAD
             />
+=======
+            android:resource="@array/preloaded_fonts" />
+>>>>>>> 53b4940 (Made some changes)
     </application>
 
 </manifest>

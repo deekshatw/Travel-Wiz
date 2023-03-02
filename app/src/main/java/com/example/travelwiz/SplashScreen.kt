@@ -17,6 +17,7 @@ class SplashScreen : AppCompatActivity() {
             val iHome = Intent(this, MainActivity::class.java)
             startActivity(iHome)
             finish()
+<<<<<<< HEAD
         }, 4000)
     }
 
@@ -30,4 +31,10 @@ class SplashScreen : AppCompatActivity() {
             }, 4000)
         }
     }
+=======
+        }, 3000)
+    }
+
+
+>>>>>>> 53b4940 (Made some changes)
 }
